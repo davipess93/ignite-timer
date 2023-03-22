@@ -6,14 +6,9 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import * as zod from 'zod'
 
 import {
-  CountdownContainer,
-  FormContainer,
   HomeContainer,
-  MinutsAmountInput,
-  Separator,
   StartCountdownButton,
   StopCountdownButton,
-  TaskInput,
 } from './styles'
 import { NewCycleForm } from './components/NewCycleForm'
 import { Countdown } from './components/Countdown'
